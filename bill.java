@@ -1,0 +1,15 @@
+import java.util.*;
+public class bill {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float item1=sc.nextFloat();
+        float item2=sc.nextFloat();
+        float item3=sc.nextFloat();
+        float total = item1+item2+item3;
+        float gst= 0.18f*total+total;
+        System.out.println("Total Bill before gst :"+total);
+        System.out.println("Total Bill after gst :"+gst);
+        sc.close();
+    }
+    
+}
