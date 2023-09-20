@@ -2,13 +2,14 @@ import java.util.*;
 public class loopbasic {
     public static void main(String[] args) {
     Scanner sc =new Scanner(System.in);
-    System.out.println("enter the no ");
+    System.out.println("enter the value of n");
     int num =sc.nextInt();
-    while(num<=100){
-        System.out.println("Hello World");
-        num++;
+    int counter=1;
+    while(counter<=num){
+        System.out.println("Hello");
+        counter++;
     }
     sc.close();
-    }
+} 
     
 }
