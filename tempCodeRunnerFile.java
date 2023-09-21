@@ -1,1 +1,1 @@
-sc.close();
+     System.out.println();
